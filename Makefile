@@ -1,11 +1,11 @@
 CC = g++
-CFLAGS =
+CFLAGS = -O3
 OMPFLAGS = -fopenmp
 
 all: omp
 
 omp: omp.cpp
-	$(CC) -o $@ $^ $(OMPFLAGS)
+	$(CC) -o $@ $^ $(OMPFLAGS) $(CFLAGS)
 
 .PHONY:claan
 clean:
