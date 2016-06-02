@@ -26,7 +26,7 @@ CPU      8 Intel® Core™ i7-6700 CPU @ 3.4GHz
 GPU      AMD 64bits 33MHz	
 内存     4G	
 
-`./go.sh`
+`./omp.sh`
 
 时间/s	
 			线程数

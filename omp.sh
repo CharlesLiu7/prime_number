@@ -1,7 +1,7 @@
 #!/bin/sh
 
 echo -----make-----
-make
+make omp
 echo ----thread 1-----
 export OMP_NUM_THREADS=1
 ./omp 100000
